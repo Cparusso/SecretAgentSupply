@@ -9,6 +9,17 @@ body {
 header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   height: 25rem;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.logo-img {
+  height: 1.5rem;
 }
 
 .announcement {
