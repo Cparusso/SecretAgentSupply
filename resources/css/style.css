@@ -1,0 +1,26 @@
+body {
+  font-family: helvetica;
+  color: white;
+  background-color: black; /* DELETE--- Helpful at the start because of the white text */
+}
+
+/* Header Section */
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+}
+
+.announcement {
+  display: flex;
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+}
+
+/* Main Section */
+
+nav.links {
+  background-color: red;
+}
