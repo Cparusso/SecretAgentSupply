@@ -64,7 +64,25 @@ nav ul {
 
 /* Shop Section */
 
+.items {
+  display: flex;
+  align-items: center;
+}
 
+.item {
+  border: 3px dotted red;
+  width: 35%;
+  max-height: 13rem;
+}
+
+.item-img img {
+  padding: 2rem;
+  border: 4px solid black;
+}
+
+.item span {
+  background-color: black;
+}
 
 /* Store-info Section */
 .store-info {
