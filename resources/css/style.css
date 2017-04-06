@@ -101,18 +101,18 @@ nav ul {
 .store-info {
   display: flex;
   justify-content: space-between;
-  border: 3px solid green;
 }
 
 .info {
   width: 35%;
-  border: 3px dotted blue;
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 .info-words {
   background-color: black;
+  padding: 1rem 0 1rem 2rem;
 }
 
 .info-numbers {
