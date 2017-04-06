@@ -66,8 +66,8 @@ nav ul {
 
 .items {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  border: 3px dotted turquoise;
 }
 
 .item {
@@ -86,6 +86,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  max-height: 100%;
 }
 
 .item span {
@@ -96,6 +97,38 @@ nav ul {
   padding: 0.5rem 0;
 }
 
+/* Store-info Section */
+.store-info {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid green;
+}
+
+.info {
+  width: 35%;
+  border: 3px dotted blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-words {
+  background-color: black;
+}
+
+.info-numbers {
+  color: black;
+}
+
+/* Footer Section */
+
 footer {
   background-color: black;
+}
+
+footer div {
+  background-color: black;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
